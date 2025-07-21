@@ -1,0 +1,21 @@
+.footer {
+  background-color: #7b854c;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin: 20px 0px;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 425px) {
+  .footer p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,58 @@
+.container {
+  width: 70vw;
+  height: 30rem;
+  margin: 0 auto;
+}
+
+.bloc_tabs {
+  display: flex;
+  gap: 10px;
+  margin-left: 1rem;
+}
+
+.tab {
+  display: flex;
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  padding: 10px 12px;
+  background-color: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  border: 1px solid #cecece;
+  cursor: pointer;
+}
+
+.activeC {
+  display: flex;
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  color: white;
+  background-color: #b38dc7;
+  border: 1px solid #7d5b90;
+}
+
+.tabs_content {
+  background-color: #f6f6f6ad;
+  border-radius: 0.8rem;
+  padding: 0.6rem 1.5rem;
+  padding-bottom: 1.1rem;
+  min-height: 10rem;
+  box-shadow: 5px 5px 10px #4f4f4fcb;
+}
+
+.content {
+  display: none;
+  font-family: "Poppins";
+}
+.content.showC {
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 90vw;
+  }
+
+  .tab {
+    font-size: 0.9rem;
+  }
+}

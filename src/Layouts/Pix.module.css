@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pixIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+#pixImage {
+  height: 9em;
+  padding: 0.8em;
+  background-color: white;
+  border-radius: 0.6em;
+  border: 2px solid #0000;
+}
+.confirmBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.confirmBtn p {
+  padding: 0.8em;
+  background-color: white;
+  border-radius: 0.6em;
+  border: 2px solid #0000;
+  font-size: 1rem;
+}
+
+#copiedIcon {
+  height: 3em;
+  cursor: pointer;
+}
+
+.text {
+  text-align: justify;
+  padding: 0.3rem 1em;
+  background-color: #ffff;
+  border-radius: 0.6em;
+  border: 2px solid #0000;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    gap: 0;
+  }
+
+  .pixIcon {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #pixImage {
+    height: 6em;
+  }
+  .confirmBtn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .confirmBtn p {
+    font-size: 0.9rem;
+  }
+  #copiedIcon {
+    height: 2.5em;
+  }
+  .text {
+    margin: 0;
+  }
+}

@@ -1,0 +1,180 @@
+.home {
+  background-image: url("../images/1_FUNDO A.png");
+  background-size: 100vw 95vh;
+  width: 100%;
+  height: 95vh;
+}
+
+.homeCenter {
+  display: flex;
+}
+
+.couple {
+  position: relative;
+  z-index: 3;
+  height: 95vh;
+  margin-left: 5em;
+}
+
+.couple img {
+  width: 100%;
+  height: 100%;
+}
+
+.textSide {
+  position: relative;
+  z-index: 1;
+  margin-top: 4.5em;
+  display: flex;
+  flex-direction: column;
+  left: 20vw;
+  text-align: right;
+}
+
+.textSide img {
+  width: 19em;
+  height: 1.5em;
+}
+
+.title {
+  font-family: "Palace Script MT", sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  color: #7b854c;
+  margin-right: 3rem;
+
+  transform: skewX(25deg);
+}
+#quebraLinha {
+  display: none;
+}
+
+.save {
+  font-family: "PP Pangaia", sans-serif;
+  font-size: 2rem;
+  color: #333;
+  margin: 0.3rem;
+  margin-top: 0.8rem;
+}
+
+.save span {
+  font-size: 1.2rem;
+}
+
+.schedule {
+  font-family: "Poppins";
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin: 0.3rem;
+}
+.schedule br {
+  display: none;
+}
+
+.schedule span {
+  font-family: "Croissant One", serif;
+  font-size: 1.7rem;
+}
+
+.invite {
+  font-family: "Poppins";
+  margin: 0.3rem;
+  color: #777;
+}
+
+.textSide button {
+  max-width: 14rem;
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #646e38;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.7em 1em;
+  transition: all 0.4s ease-out;
+  align-self: self-end;
+  cursor: pointer;
+}
+
+.textSide button:hover {
+  background-color: #b38dc7;
+}
+
+.textSide button:active {
+  background-color: #81509b;
+}
+
+/* CSS MEDIA QUERY */
+@media screen and (max-width: 425px) {
+  .home {
+    background-image: none;
+    height: 100%;
+  }
+  .homeCenter {
+    display: flex;
+    flex-direction: column;
+  }
+  .couple {
+    width: 90%;
+    height: 80%;
+    margin: 1rem auto;
+  }
+  .textSide {
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .title {
+    text-align: center;
+    transform: skewX(5deg);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 4.5rem;
+  }
+
+  #quebraLinha {
+    display: flex;
+  }
+
+  .textSide img {
+    width: 85%;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .schedule {
+    text-align: center;
+  }
+  .schedule br {
+    display: flex;
+  }
+  .save,
+  .schedule,
+  .schedule span {
+    font-size: 130%;
+  }
+
+  .invite {
+    font-size: 1rem;
+  }
+
+  .textSide button {
+    max-width: 90%;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+}

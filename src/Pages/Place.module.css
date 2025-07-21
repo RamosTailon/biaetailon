@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 5rem;
+}
+
+#Ice {
+  width: 22rem;
+  margin-right: 3rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-family: "Poppins";
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#mapa {
+  height: 15rem;
+  padding: 0.8rem;
+  background-color: #ffffff;
+  border-radius: 1.1rem;
+  border: 2px solid;
+}
+/* CSS MEDIA QUERY */
+@media screen and (max-width: 425px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #Ice {
+    width: 100%;
+    margin: 0;
+  }
+
+  .text {
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+
+  #mapa {
+    width: 80vw;
+    height: 12rem;
+  }
+}

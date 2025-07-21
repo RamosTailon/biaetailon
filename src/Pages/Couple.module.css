@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.paragraph {
+  margin: 1rem 5rem;
+  text-align: justify;
+  margin-bottom: 5rem;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+  height: 85vh;
+  background-color: #d7d2d9ff;
+}
+
+#casalP {
+  height: 110%;
+  margin: 0 2rem 0 7rem;
+}
+
+.textoCasal {
+  font-family: "Poppins";
+  max-width: 45vw;
+  text-align: justify;
+  font-size: 1rem;
+  text-indent: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    margin-bottom: 0;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  #casalP {
+    margin: 0;
+    width: 100%;
+  }
+  .textoCasal {
+    margin: 1.5rem;
+    max-width: 100%;
+  }
+  .paragraph {
+    margin: 1rem 1.1rem;
+  }
+
+  .paragraph,
+  .textoCasal {
+    font-size: 1.3rem;
+  }
+}
