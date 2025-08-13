@@ -192,7 +192,7 @@ const ConfirmPresence = () => {
         item1={
           <div className={style.content1}>
             <span>
-              SÁBADO, <b>20 de SETEMBRO</b>, 16 Hrs
+              SÁBADO, <b>08 de NOVEMBRO</b>, 16 Hrs
             </span>
             <form onSubmit={handleSubmitPanela} className={style.formContainer}>
               <Input

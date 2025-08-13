@@ -26,14 +26,6 @@ const GiftList = () => {
               da Havan, ou doar um pix para o casal:
             </p>
             <a
-              href={linkSiteCha}
-              className={style.linkH}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Lista de presentes para o Chá de Panela
-            </a>
-            <a
               href={linkSiteCasamento}
               className={style.linkH}
               target="_blank"

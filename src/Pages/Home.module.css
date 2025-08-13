@@ -37,7 +37,8 @@
 }
 
 .title {
-  font-family: "Palace Script MT", sans-serif;
+  /*font-family: "Palace Script MT", sans-serif;*/
+  font-family: "Kapakana", sans-serif;
   font-size: 5em;
   font-weight: bold;
   color: #7b854c;
